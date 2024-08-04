@@ -1,0 +1,23 @@
+{
+    "name": "relatorio-de-cidades",
+    "version": "1.0.0",
+    "description": "Projeto para gerar relatórios de nomes de cidades em formatos HTML e TXT utilizando padrões de projeto e princípios SOLID.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "mocha",
+        "start": "node index.js",
+        "html": "node index.js html",
+        "txt": "node index.js txt"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "assert": "^2.1.0",
+        "fs": "^0.0.1-security",
+        "node": "^20.16.0"
+    },
+    "devDependencies": {
+        "mocha": "^10.7.0"
+    }
+}
